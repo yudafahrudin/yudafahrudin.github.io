@@ -5,9 +5,10 @@
 
 .home_banner_area .box_1620 {
     bottom: 0px;
-    height: 700px;
+    height: auto;
+    min-height: auto;
 }
 
 .home_banner_area .banner_inner {
-    min-height: 600px;
+    min-height: 500px;
 }

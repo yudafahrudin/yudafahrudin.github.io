@@ -11,9 +11,9 @@ class Home extends Component {
                 <div className="banner_inner d-flex align-items-center">
                   <div className="banner_content">
                     <div className="media">
-                      <div className="d-flex">
+                      <div className="p-3 mr-4">
                         <img
-                          style={{ height: "640px" }}
+                          style={{ width: "30vw", height: "65vh" }}
                           src="/public/assets/images/personal-3.jpg"
                           alt=""
                         />
@@ -25,46 +25,48 @@ class Home extends Component {
                           <h4>Programmer, Pro gamers, Novelist</h4>
                           <p>
                             Experience with backend, Restful API and Mobile
-                            programming. Understanding laravel , code igniter,
+                            programming. Understanding laravel, code igniter,
                             ruby on rail, android native and react native.
                           </p>
                           <ul className="list basic_info">
                             <li>
                               <a href="#">
-                                <i class="fa fa-calendar" /> 26 February, 1996
+                                <i class="far fa-calendar-alt" />
+                                26 February, 1996
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i className="fa fa-phone" /> 085708880099
+                                <i class="fab fa-whatsapp" /> 085708880099
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i className="fa fa-envelope" />{" "}
+                                <i class="far fa-envelope-open" />{" "}
                                 ahmadyudafahrudin@gmail.com
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-address" /> Surabaya - Mojokerto
+                                <i class="far fa-address-card" />
+                                Surabaya - Mojokerto
                               </a>
                             </li>
                           </ul>
                           <ul className="list personal_social">
                             <li>
                               <a href="#">
-                                <i className="fa fa-facebook" />
+                                <i class="fab fa-facebook-square" />
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i className="fa fa-twitter" />
+                                <i class="fab fa-twitter-square" />
                               </a>
                             </li>
                             <li>
                               <a href="https://www.linkedin.com/in/yuda-fahrudin-537288118/">
-                                <i className="fa fa-linkedin" />
+                                <i class="fab fa-linkedin" />
                               </a>
                             </li>
                           </ul>
@@ -75,6 +77,35 @@ class Home extends Component {
                 </div>
               </div>
             </div>
+            {/* <div className="col-2">
+              <div className="right-tab-menu">
+                <ul
+                  className="nav flex-column"
+                  style={{ backgroundColor: "#FFFFFF" }}
+                >
+                  <li className="nav-item">
+                    <a className="nav-link active" href="#">
+                      Active
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Link
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Link
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link disabled" href="#">
+                      Disabled
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div> */}
           </div>
         </div>
       </section>
