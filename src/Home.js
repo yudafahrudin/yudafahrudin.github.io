@@ -49,7 +49,7 @@ class Home extends Component {
                             <li>
                               <a href="#">
                                 <i class="far fa-address-card" />
-                                Surabaya - Mojokerto
+                                Surabaya
                               </a>
                             </li>
                           </ul>
