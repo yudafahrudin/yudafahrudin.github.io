@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "webpack-dev-server --open",
     "start": "node server.js",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",
