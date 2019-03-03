@@ -5,9 +5,10 @@ module.exports = {
     mode: 'development',
     entry: './src/index.js',
     output: {
-        path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js',
-    },
+        path: path.resolve('dist'),
+        filename: '[name].[contenthash].js',
+        publicPath: '/',
+      },
     resolve: {
         extensions: ['.js', '.jsx'],
       },
