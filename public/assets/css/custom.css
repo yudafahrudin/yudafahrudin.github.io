@@ -1,6 +1,10 @@
 .home_banner_area {
     margin-bottom: 0px;
     height: 100vh;
+    background-image: url('https://c2.staticflickr.com/8/7158/13562215495_916946d684_b_d.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .home_banner_area .box_1620 {
